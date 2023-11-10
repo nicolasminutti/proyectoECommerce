@@ -4,7 +4,7 @@ import Navbar from './components/containers/Navbar';
 import Footer from './components/containers/Footer';
 import ProductDetail from './components/presentation/ProductDetail';
 
-function App() {
+const App = () => {
 	const [products, setProducts] = useState([]);
 
 	useEffect(() => {
